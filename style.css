@@ -1,3 +1,122 @@
+body {
+  background-color: #033847;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  margin: 0;
+}
 
+a {
+  color: #ef98ab;
+}
+
+h2 {
+  margin-top: 35px;
+}
+
+.gray-sect {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 10px 0 30px 0;
+}
+.gray-sect h2,
+.gray-sect h3 {
+  color: #000000;
+}
+
+.btn {
+  min-width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  border: solid 3px;
+  border-radius: 10px;
+  background: transparent;
+  padding: 8px;
+}
+
+.btn:hover {
+  color: #38baa8;
+}
+
+.white-btn {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.pink-btn {
+  border-color: #fd708c;
+  color: #ef98ab;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+  align-items: center;
+}
+header .logo {
+  width: 82%;
+  padding-left: 10px;
+}
+header .logo img {
+  max-width: 200px;
+}
+header i {
+  color: #ffffff;
+  font-size: 25px;
+  padding-left: 35px;
+}
+
+.main {
+  width: 100%;
+}
+
+.welcome-wrapper {
+  position: relative;
+  background-image: url("/images/photo-of-woman-using-her-laptop-935756.jpg");
+  background-size: 115%;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+
+.welcome {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 58%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  box-shadow: 5px 5px #38baa8;
+  margin: auto;
+  padding: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icon-wrapper i {
+  margin: 20px 30px;
+  color: #ef98ab;
+  font-size: 60px;
+}
+
+.sponsor-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sponsor-wrapper .sponsor-logo {
+  max-height: 70px;
+  padding: 15px;
+}
 
 /*# sourceMappingURL=style.css.map */
